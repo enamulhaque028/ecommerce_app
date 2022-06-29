@@ -1,9 +1,10 @@
 import 'package:ecommerce_app/screens/tabs/category/bloc/product_category_bloc.dart';
-import 'package:ecommerce_app/screens/tabs/category/data/repositories/product_category_repository.dart';
-import 'package:ecommerce_app/screens/tabs/category/product_list_page.dart';
+import 'package:ecommerce_app/screens/tabs/category/product_list/product_list_page.dart';
 import 'package:ecommerce_app/widgets/product_category_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../../data/repositories/product_category_repository.dart';
 
 class CategoryPage extends StatelessWidget {
   const CategoryPage({Key? key}) : super(key: key);

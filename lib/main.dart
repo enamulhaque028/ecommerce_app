@@ -2,12 +2,12 @@ import 'dart:async';
 import 'dart:developer';
 
 import 'package:ecommerce_app/core/network/http_client.dart';
-import 'package:ecommerce_app/screens/tabs/category/data/repositories/product_category_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'core/di/dependency_injection.dart';
 import 'core/helper/app_bloc_observer.dart';
+import 'data/repositories/product_category_repository.dart';
 import 'screens/home/home_page.dart';
 
 void main() {
